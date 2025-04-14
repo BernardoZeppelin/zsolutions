@@ -104,66 +104,110 @@
             right: 15px;
             font-size: 30px;
             color: white;
-            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-            border-radius: 50%;
-            padding: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-            transition: transform 0.3s;
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc274<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistência Técnica - Z SOLUTIONS EQUIPAMENT IMPORT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #f4f4f4, #dfdfdf);
+            color: #333;
         }
-        .instagram-icon:hover {
-            transform: scale(1.1);
+        header {
+            background: linear-gradient(90deg, #0c5272, #094d6b);
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         }
-    </style>
-</head>
-<body>
-    <header>
-        <img src="/Imagens/logo.jpg" alt="Logo da Empresa" class="logo">
-        <h1>Z SOLUTIONS EQUIPAMENT IMPORT</h1>
-        <p>A FORÇA DA TECNOLOGIA ITALIANA IMPULSIONANDO SEUS RESULTADOS.</p>
-    </header>
-
-    <div class="container">
-        <h2>ASSISTÊNCIAS TÉCNICAS HOMOLOGADAS E AUTORIZADAS Z SOLUTIONS:</h2>
-        <p>
-            <strong>SÃO PAULO – Capital e Interior</strong><br>
-            JAC MANUTENÇÕES<br>
-            (19) 97402-0933 – Ronaldo<br>
-            (19) 97402-0861 – José<br>
-            (19) 97402-4493 – Ian<br>
-            (19) 2222-2864 – Fixo<br>
-            <strong>Emails:</strong><br>
-            contato@jacmanutencoes.com.br<br>
-            ronaldo.rodrigues@jacmanutencoes.com.br<br><br>
-
-            <strong>PARANÁ E SANTA CATARINA</strong><br>
-            MARCELO SCHWAMBACH<br>
-            (41) 99167-0302<br>
-            schw.marcelo@gmail.com<br><br>
-
-            <strong>RIO GRANDE DO SUL</strong><br>
-            MICHEL MELONI<br>
-            (11) 93413-6009<br>
-            michel.meloni@yahoo.com.br<br><br>
-
-            <strong>DISTRITO FEDERAL</strong><br>
-            DANIEL PEREIRA<br>
-            (61) 99302-1229<br>
-            danielazteka@gmail.com<br><br>
-
-            <strong>MINAS GERAIS</strong><br>
-            HELVÉCIO BACELAR<br>
-            (31) 99109-6071<br>
-            helveciobacelar@hotmail.com<br>
-        </p>
-        <a href="index.html" class="botao-voltar">🔹 Sobre Nós 🔹</a>
-        <a href="indexx.html" class="botao-voltar">🔹 Nossos Produtos 🔹</a>
-    </div>
-
-    <footer>
-        <p>Ouvidoria: (xx) xxxxx-xxxx • Email: zsolutionsimport@gmail.com</p>
-        <div class="creditos">Desenvolvido por Bernardo Zeppelin</div>
-        <a href="https://www.instagram.com/zsolutionsimport/" target="_blank" class="instagram-icon"><i class="fab fa-instagram"></i></a>
-    </footer>
-</body>
-</html>
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .logo {          
+            max-width: 150px;
+            margin-bottom: 10px;
+            border-radius: 20%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px;
+            background: white;
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+        }
+        h2 {
+            color: #0f638a;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .botao-voltar {
+            display: inline-block;
+            padding: 15px 25px;
+            margin-top: 20px;
+            font-size: 18px;
+            color: white;
+            background: #0f638a;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .botao-voltar:hover {
+            background: #094c6a;
+            transform: scale(1.05);
+        }
+        footer {
+            background: linear-gradient(90deg, #0c5272, #094d6b);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: auto;
+        }
+        footer p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .creditos {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 5px;
+        }
+        .instagram-icon {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            font-size: 30px;
+            color: white;
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc274
