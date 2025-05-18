@@ -6,174 +6,206 @@
     <title>Sobre Nós - Z SOLUTIONS EQUIPMENT IMPORT</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            background: linear-gradient(to bottom, #f4f4f4, #dfdfdf);
-            color: #333;
-        }
-        header {
-            background: linear-gradient(90deg, #0c5272, #094d6b);
-            color: white;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        header h1 {
-            margin: 0;
-            font-size: 28px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        header p {
-            margin: 5px 0 0 0;
-            font-size: 14px;
-            font-weight: bold;
-        }
-        .logo {          
-            max-width: 150px;
-            margin-bottom: 10px;
-            border-radius: 20%;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .container {
-            font-size: 20px;
-            font-weight: bold;
-            padding: 15px;
-            background: white;
-            margin: 20px auto;
-            border-radius: 10px;
-            width: 90%;
-            max-width: 800px;
-            box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
-            line-height: 1.6;
-        }
-        .content {
-            margin-bottom: 20px;
-        }
-        h2 {
-            color: #0f638a;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-        }
-        .botao-produtos {
-            display: inline-block;
-            padding: 15px 25px;
-            margin-top: 20px;
-            font-size: 18px;
-            color: white;
-            background: #0f638a;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: 0.3s;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .botao-produtos:hover {
-            background: #094c6a;
-            transform: scale(1.05);
-        }
-        footer {
-            background: linear-gradient(90deg, #0c5272, #094d6b);
-            color: white;
-            padding: 15px;
-            text-align: center;
-            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
-            margin-top: auto;
-        }
-        footer p {
-            margin: 5px 0;
-            font-size: 14px;
-        }
-        .creditos {
-            font-size: 12px;
-            color: rgba(255, 255, 255, 0.7);
-            margin-top: 5px;
-        }
-        .instagram-icon {
-            position: fixed;
-            bottom: 15px;
-            right: 15px;
-            font-size: 30px;
-            color: white;
-            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-            border-radius: 50%;
-            padding: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-            transition: transform 0.3s;
-        }
-        .instagram-icon:hover {
-            transform: scale(1.1);
-        }
+       body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000; /* fundo preto */
+    color: #fff; /* texto branco */
+}
 
-        @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                text-align: center;
-            }
-            .logo {
-                margin-right: 0;
-                margin-bottom: 10px;
-            }
-            .container {
-                width: 95%;
-                padding: 10px;
-            }
-            h2 {
-                font-size: 22px;
-            }
-            p {
-                font-size: 14px;
-            }
-            .botao-produtos {
-                font-size: 16px;
-                padding: 10px 20px;
-            }
-        }
+p, ul {
+    font-size: 14px; /* Fonte menor */
+    line-height: 1.6;
+    text-align: center; /* Alinha o texto */
+}
 
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 24px;
-            }
-            .logo {
-                max-width: 100px;
-            }
-            h2 {
-                font-size: 20px;
-            }
-            p {
-                font-size: 12px;
-            }
-            .botao-produtos {
-                font-size: 14px;
-                padding: 8px 15px;
-            }
-        }
+ul {
+    padding-left: 20px; /* Recuo para listas */
+}
+
+li {
+    margin-bottom: 10px; /* Espaçamento entre itens */
+}
+
+header {
+    background: #000; /* fundo preto */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none; /* remove sombra */
+}
+
+.logo {
+    max-width: 250px; /* aumenta a logo */
+    margin-bottom: 10px;
+    border-radius: 50px;
+    box-shadow: none; /* remove sombra */
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.container {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    background: #1a1a1a; /* cor do cartão */
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 2px 4px 12px rgba(255, 255, 255, 0.05);
+    line-height: 1.6;
+    color: #f0f0f0;
+}
+
+h2 {
+    color: #00bcd4; /* azul neon */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul li {
+    margin: 12px 0;
+}
+
+.botao-produtos {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+    background: #00bcd4;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 188, 212, 0.5);
+}
+
+.botao-produtos:hover {
+    background: #0097a7;
+    transform: scale(1.05);
+}
+
+footer {
+    background: #111;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.4);
+    margin-top: auto;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.creditos {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 5px;
+}
+
+.instagram-icon {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.instagram-icon:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .botao-produtos {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+    .logo {
+        max-width: 100px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .botao-produtos {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
     </style>
 </head>
 <body>
     <header>
-        <img src="logo.jpg" alt="Logo da Empresa" class="logo">
-        <h1>Z SOLUTIONS EQUIPMENT IMPORT</h1>
-        <p>A FORÇA DA TECNOLOGIA ITALIANA IMPULSIONANDO SEUS RESULTADOS.</p>
+        <img src="logo_new.jpg" alt="Logo da Empresa" class="logo">
+        <p  style="font-size: 16px; "><strong>A FORÇA DA TECNOLOGIA ITALIANA IMPULSIONANDO SEUS RESULTADOS.</strong></p>
     </header>
 
     <div class="container">
         <div class="content">
             <h2>Sobre Nós</h2>
-            <p style="text-align: center; margin: 0 auto; max-width: 600px; padding: 0; list-style: none; font-size: 16px;">
+            <p>
                 A <strong>Z SOLUTIONS</strong> foi criada com o objetivo de levar <strong>inovação</strong>, <strong>qualidade</strong> e <strong>tecnologia</strong> ao mercado de equipamentos para cozinhas profissionais. 
                 Importamos diretamente da Europa, com foco na <strong>excelência italiana</strong>, oferecendo soluções que aumentam o desempenho de restaurantes, hotéis e empresas do setor foodservice.
             </p>
@@ -198,21 +230,19 @@
             <h2>Contato</h2>
             <p>
                 <img src="Brasil.png" alt="Brasil" style="width: 20px; height: 14px; margin-right: 5px;">
-                <i class="fas fa-phone"></i> (19) 98262-7118
+                <i class="fas fa-phone"></i> (19) 99155-7476
             </p>
             <p>
                 <img src="Italia.png" alt="Itália" style="width: 20px; height: 14px; margin-right: 5px;">
                 <i class="fas fa-phone"></i> (39) 39206-46489
             </p>
-            <p>
-                <i class="fas fa-envelope"></i> zsolutionsimport@gmail.com
-            </p>
+            
             <a href="indexx.html" class="botao-produtos">🔹 Nossos Produtos 🔹</a>
         </div>
     </div>
 
     <footer>
-        <p>Ouvidoria:  (19) 99155-7476 • Email: zsolutionsimport@gmail.com</p>
+        <p>Ouvidoria: (19) 99155-7476</p>
         <div class="creditos">Desenvolvido por Bernardo Zeppelin</div>
         <a href="https://www.instagram.com/zsolutionsequipmentimport/" target="_blank" class="instagram-icon"><i class="fab fa-instagram"></i></a>
     </footer>
